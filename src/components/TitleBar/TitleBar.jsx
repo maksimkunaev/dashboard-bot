@@ -1,8 +1,7 @@
 import React, { PureComponent } from 'react';
-import cn from 'classnames';
 import styles from './TitleBar.styl';
 import { Icon } from 'antd';
-import Content from 'components/Content';
+import Content from 'components/Content/';
 
 const mainColor = '#546076';
 

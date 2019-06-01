@@ -81,9 +81,9 @@ module.exports = {
         ]
     },
     resolve: {
+        plugins: [new ComponentDirectoryPlugin()],
         extensions: ['.js', '.jsx'],
         modules: [paths.appSrc, 'node_modules'],
-        plugins: [new ComponentDirectoryPlugin()],
     },
     plugins: [
         new HtmlWebpackPlugin({

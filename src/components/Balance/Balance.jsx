@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styles from './Balance.styl';
 import hIcon from 'media/h.svg';
-import Content from 'components/Content';
+import Content from 'components/Content/';
 
 export default class Balance extends PureComponent {
   render() {
