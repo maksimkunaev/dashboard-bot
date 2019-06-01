@@ -24,6 +24,7 @@ data.bots = sortedBots.map(sortedBot => {
 const initialState = {
     currentConfig: {
         timeUnit: 'all_time',
+        activeMenu: 'dashboard',
     },
     data,
 }
@@ -48,9 +49,10 @@ function changeData(state = initialState.data, action) {
 function changeConfig(state = initialState.currentConfig, action) {
     switch (action.type) {
         case 'changeRange':
-            console.log(state)
-            console.log(action)
             return { ...state, timeUnit: action.data};
+
+        case 'switchMenu':
+            return { ...state, activeMenu: action.data};
     }
 
     return state;

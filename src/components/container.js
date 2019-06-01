@@ -19,6 +19,12 @@ const mapDispatchToProps = dispatch => ({
       data,
     })
   },
+  switchMenu: (data) => {
+    dispatch({
+      type: 'switchMenu',
+      data,
+    })
+  },
 })
 
 export default component => connect(mapStateToProps, mapDispatchToProps)(component);
