@@ -10,9 +10,9 @@ export default class TitleBar extends PureComponent {
     return (
         <Content>
           <div className={styles.titleBar}>
-            <Icon type="menu" style={{color: mainColor}}/>
+            <Icon type="menu" style={{color: mainColor, fontSize: 40}}/>
             <h1 className={styles.title}>Dashboard</h1>
-            <Icon type="sync" style={{color: mainColor }}/>
+            <Icon type="sync" style={{color: mainColor, fontSize: 40 }}/>
           </div>
 
         </Content>

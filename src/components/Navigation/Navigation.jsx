@@ -13,7 +13,7 @@ class MenuItem extends PureComponent {
 
     return (
       <li className={cn(styles.item, isActive && styles.active)} onClick={onClick}>
-        <Icon type={icon} />
+        <Icon type={icon} style={{fontSize: 40}}/>
         {name}
       </li>
     );
