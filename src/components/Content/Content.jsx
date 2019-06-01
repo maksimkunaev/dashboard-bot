@@ -6,7 +6,7 @@ import { Icon } from 'antd';
 export default class Content extends PureComponent {
   render() {
     return (
-      <div className={styles.content}>
+      <div className={styles.content} style={this.props.style}>
         {this.props.children}
       </div>
     );

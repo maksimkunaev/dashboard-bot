@@ -16,7 +16,6 @@ class App extends Component {
           <div className={s.container}>
             <TopBlock />
             <BottomBlock />
-            <Navigation />
           </div>
         </div>
       );
