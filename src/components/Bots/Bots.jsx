@@ -8,14 +8,14 @@ import BotIcon from './BotIcon';
 
 class Bot extends PureComponent {
   render() {
-    const { name } = this.props;
-    console.log(this.props)
+    const { name, title } = this.props;
 
     return (
       <div className={styles.bot}>
         <div className={styles.botInner}>
-          {name}
           <BotIcon fill="green"/>
+          {title}
+
         </div>
       </div>
     );

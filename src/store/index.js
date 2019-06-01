@@ -1,7 +1,26 @@
 import { combineReducers } from 'redux';
 
-import data from 'json/data.js';
-const sorteDbots = ['orange_bot', 'white_bot', 'blue_bot', 'green_bot', 'yellow_bot', 'red_bot']
+import initialData from 'json/data.js';
+
+const sortedBots = [
+    { name: 'orange_bot', title: 'attack' },
+    { name: 'white_bot', title: 'place bot here' },
+    { name: 'blue_bot', title: 'balance' },
+    { name: 'green_bot', title: 'defence' },
+    { name: 'yellow_bot', title: 'megabot' },
+    { name: 'red_bot', title: 'attack' },
+];
+
+const data = { ...initialData };
+
+data.bots = sortedBots.map(sortedBot => {
+    const foundBot = initialData.bots.find(bot => bot.name === sortedBot.name);
+
+    return {
+        ...foundBot,
+        title: sortedBot.title,
+    }
+})
 
 const initialState = {
     currentConfig: {
@@ -9,7 +28,7 @@ const initialState = {
         date_to: '',
         indicator: 'average_time',
     },
-    data: data,
+    data,
     loadingStatus: 'fetching',
 }
 
