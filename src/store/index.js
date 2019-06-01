@@ -1,15 +1,15 @@
 import { combineReducers } from 'redux';
 
+import data from 'json/data.js';
+const sorteDbots = ['orange_bot', 'white_bot', 'blue_bot', 'green_bot', 'yellow_bot', 'red_bot']
+
 const initialState = {
     currentConfig: {
         date_from: '',
         date_to: '',
         indicator: 'average_time',
     },
-    data: {
-        table: {},
-        charts: {},
-    },
+    data: data,
     loadingStatus: 'fetching',
 }
 

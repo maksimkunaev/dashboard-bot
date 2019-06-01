@@ -1,28 +1,23 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import api from 'api';
-const {
-  getData,
-} = api;
-
 const mapStateToProps = state => ({
-    currentConfig: state.currentConfig,
+    // currentConfig: state.currentConfig,
     data: state.data,
-    loadingStatus: state.loadingStatus,
+    // loadingStatus: state.loadingStatus,
 })
 
 const mapDispatchToProps = dispatch => ({
-  getData: () => {
-    getData()
-      .then(data => onSuccess(data, dispatch, 'getData'))
-      .catch(error => onError(error, dispatch))
-  },
-  getChartsData: () => {
-    getData(`/sources/stat/chart/sources`)
-      .then(data => onSuccess(data, dispatch, 'getChartsData'))
-      .catch(error => onError(error, dispatch))
-  },
+  // getData: () => {
+  //   getData()
+  //     .then(data => onSuccess(data, dispatch, 'getData'))
+  //     .catch(error => onError(error, dispatch))
+  // },
+  // getChartsData: () => {
+  //   getData(`/sources/stat/chart/sources`)
+  //     .then(data => onSuccess(data, dispatch, 'getChartsData'))
+  //     .catch(error => onError(error, dispatch))
+  // },
 })
 
 function onSuccess(data, dispatch, type) {

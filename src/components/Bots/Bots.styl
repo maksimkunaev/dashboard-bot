@@ -14,6 +14,8 @@
   .botInner {
     background: #252d3f;
     height: 100%;
+    width: 100%
+    color: red
   }
 }
 
@@ -24,4 +26,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+:global {
+  .smooth-dnd-container {
+    width: 100%;
+
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

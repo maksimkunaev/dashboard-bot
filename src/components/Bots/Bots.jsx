@@ -1,33 +1,54 @@
-import React, { PureComponent } from 'react';
-import cn from 'classnames';
+import React, { PureComponent, Component } from 'react';
 import styles from './Bots.styl';
 import Content from 'components/Content'
+import container from "components/container";
+import { Container, Draggable } from 'react-smooth-dnd';
+import { bind } from 'decko';
+import BotIcon from './BotIcon';
 
 class Bot extends PureComponent {
   render() {
+    const { name } = this.props;
+    console.log(this.props)
+
     return (
       <div className={styles.bot}>
         <div className={styles.botInner}>
-          bot
+          {name}
+          <BotIcon fill="green"/>
         </div>
       </div>
-
     );
   }
 }
-const data = [1,2,3,4,5,6];
 
-export default class Bots extends PureComponent {
+class Bots extends Component {
+  @bind
+  onDrop({addedIndex, removedIndex}) {
+    console.log(removedIndex, addedIndex)
+  }
   render() {
+    const { bots } = this.props.data;
     return (
       <div className={styles.bots}>
         <Content style={{height: '100%'}}>
           <div className={styles.inner}>
-            {data.map(bot => <Bot />)}
+
+            <Container onDrop={this.onDrop} >
+              {bots.map(bot => {
+                console.log(bot)
+                return (
+                  <Draggable key={bot.name}>
+                    <Bot {...bot}/>
+                  </Draggable>
+                );
+              })}
+            </Container>
           </div>
         </Content>
       </div>
-
     );
   }
 }
+
+export default container(Bots);
