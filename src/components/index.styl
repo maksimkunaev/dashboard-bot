@@ -1,0 +1,50 @@
+@import '../css/base.styl'
+
+body,
+html {
+    width 100%
+    height 100%
+    background #1d2637
+}
+
+
+* {
+    padding 0
+    margin 0
+    box-sizing border-box
+}
+
+:global {
+    #root {
+        width 100%
+        height: 100%;
+    }
+}
+
+.app {
+    width: 100%
+    height: 100%
+}
+
+.container {
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+        div {
+            outline solid aliceblue
+        }
+}
+
+.item {
+    flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 1100px)
+    .container {
+        width 100%
+        margin 0 auto
+    }
+
+
