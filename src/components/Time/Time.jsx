@@ -22,9 +22,8 @@ class Time extends PureComponent {
   }
 
   render() {
-    console.log(this.props)
-    const unitClassName = cn(styles.unit, )
     const { timeUnit } = this.props.currentConfig;
+
     return (
       <Content>
         <div className={styles.time}>

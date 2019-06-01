@@ -1,6 +1,6 @@
 import React from 'react';
 export default props =>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 72" width="95" height="72" fill={props.fill}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 72" width="95" height="72" fill={props.fill} style={{marginBottom: 8}}>
     <g id="Bots">
       <g id="6">
         <path id="Прямоугольник 2 копия 8" className="shp0"
