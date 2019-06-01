@@ -27,9 +27,10 @@ class Time extends PureComponent {
     return (
       <Content>
         <div className={styles.time}>
-          <div className={styles.title}>Time Range:</div>
 
           <div className={styles.range}>
+            <div className={styles.title}>Time Range:</div>
+
             {
               this.range.map(unit => {
                 return <button

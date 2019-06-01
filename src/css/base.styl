@@ -1,5 +1,7 @@
 $mainColor = #546076;
 $subColor = #fff;
+$small = 700px;
+$minSize = 350px;
 $baseFont = 'S FU IDisplay';
 
 text() {
@@ -8,4 +10,7 @@ text() {
   color: $mainColor;
   font-weight: bold;
   text-transform: uppercase;
+  @media (max-width: 700px) {
+    font-size: 1em;
+  }
 }
