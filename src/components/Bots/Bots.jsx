@@ -24,7 +24,10 @@ class Bot extends PureComponent {
 class Bots extends Component {
   @bind
   onDrop({addedIndex, removedIndex}) {
-    console.log(removedIndex, addedIndex)
+    this.props.changeBotsOrder({
+      removedIndex,
+      addedIndex
+    })
   }
   render() {
     const { bots } = this.props.data;
@@ -35,7 +38,6 @@ class Bots extends Component {
 
             <Container onDrop={this.onDrop} >
               {bots.map(bot => {
-                console.log(bot)
                 return (
                   <Draggable key={bot.name}>
                     <Bot {...bot}/>

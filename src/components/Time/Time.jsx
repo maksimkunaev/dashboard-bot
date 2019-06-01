@@ -1,15 +1,53 @@
 import React, { PureComponent } from 'react';
 import Content from 'components/Content'
 import styles from './Time.styl';
+import container from "components/container";
+import { bind } from 'decko'
+import cn from 'classnames';
 
-export default class Time extends PureComponent {
+class Time extends PureComponent {
+
+  range = [
+    {key: '24h', name: '24h' },
+    {key: '7d', name: '7 days' },
+    {key: '30d', name: '30 days' },
+    // {key: '60d', name: '60d' },
+    // {key: '90d', name: '90d' },
+    {key: 'all_time', name: 'All time' },
+  ]
+
+  @bind
+  changeRange(key) {
+    this.props.changeRange(key);
+  }
+
   render() {
+    console.log(this.props)
+    const unitClassName = cn(styles.unit, )
+    const { timeUnit } = this.props.currentConfig;
     return (
       <Content>
-        <div className={styles.navigation}>
-          Time
+        <div className={styles.time}>
+          <div className={styles.title}>Time Range:</div>
+
+          <div className={styles.range}>
+            {
+              this.range.map(unit => {
+                return <button
+                  key={unit.key}
+                  className={cn(styles.unit, unit.key === timeUnit && styles.active)}
+                  onClick={this.changeRange.bind(this, unit.key)}
+                >
+                  {unit.name}
+                </button>
+              })
+            }
+          </div>
+
         </div>
       </Content>
     );
   }
 }
+
+export default container(Time);

@@ -1,5 +1,4 @@
 import { combineReducers } from 'redux';
-
 import initialData from 'json/data.js';
 
 const sortedBots = [
@@ -10,7 +9,6 @@ const sortedBots = [
     { name: 'yellow_bot', title: 'megabot', color: 'yellow' },
     { name: 'red_bot', title: 'attack', color: 'red' },
 ];
-
 const data = { ...initialData };
 
 data.bots = sortedBots.map(sortedBot => {
@@ -25,48 +23,41 @@ data.bots = sortedBots.map(sortedBot => {
 
 const initialState = {
     currentConfig: {
-        date_from: '',
-        date_to: '',
-        indicator: 'average_time',
+        timeUnit: 'all_time',
     },
     data,
-    loadingStatus: 'fetching',
 }
 
-function getData(state = initialState.data, action) {
+function changeData(state = initialState.data, action) {
     switch (action.type) {
-        case 'getData':
-            return { ...state, table: { ...action.data, objects: action.data.objects.filter(src => src.utm_sourcemedium) }};
-    }
+        case 'changeBotsOrder':
+            const { addedIndex, removedIndex } = action.data;
 
-    switch (action.type) {
-        case 'getChartsData':
-            return { ...state, charts: action.data };
-    }
+            const bots = [ ...initialState.data.bots];
+            const temporarySaved = bots[addedIndex];
 
-    return state;
-}
+            bots[addedIndex] = bots[removedIndex];
+            bots[removedIndex] = temporarySaved;
 
-function getLoadingState(state = initialState.loadingStatus, action) {
-    switch (action.type) {
-        case 'loading':
-            return action.loadingStatus;
+            return { ...state, bots };
     }
 
     return state;
 }
 
 function changeConfig(state = initialState.currentConfig, action) {
-    // switch (action.type) {
-    //     case 'loading':
-    //         return action.loadingStatus;
-    // }
+    switch (action.type) {
+        case 'changeRange':
+            console.log(state)
+            console.log(action)
+            return { ...state, timeUnit: action.data};
+    }
 
     return state;
 }
+
 window.store = initialState
 export default combineReducers({
     currentConfig: changeConfig,
-    data: getData,
-    loadingStatus: getLoadingState,
+    data: changeData,
 })

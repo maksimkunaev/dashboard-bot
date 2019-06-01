@@ -5,7 +5,6 @@ function formatDate(date = new Date()) {
   const month = date.getMonth() + 1;
   const day = date.getDate();
 
-  console.log(day.length)
   return `${year}-${month > 9 ? month : `0${month}`}-${day > 9 ? day : `0${day}`}`
 }
 
@@ -65,19 +64,15 @@ function getRemoteCharts(params = {}) {
     credentials: 'include'
   };
 
-  console.log(`${baseUrl}/${query}`)
   return new Promise((resolve, reject) => {
     fetch(`${baseUrl}/${query}`, options)
       .then(response => {
         return response.json();
       })
       .then(data => {
-        // console.log(data)
         resolve(data);
       })
       .catch(error => {
-        // console.log(error)
-
         reject(error)
       })
   })
@@ -120,13 +115,9 @@ function getData(query = `/sources/stat/sources`, params = {}) {
         return response.json();
       })
       .then(data => {
-        console.log(data)
-
         resolve(data);
       })
       .catch(error => {
-        console.log(error)
-
         reject(error)
       })
   })
