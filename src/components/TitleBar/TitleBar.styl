@@ -17,21 +17,24 @@
 }
 
 .title {
-  font-size: 34px;
   color: $mainColor;
   font-weight: bold;
   text-align: center;
   margin: 0;
   padding: 0;
+  text();
+  @media (max-width: 1430px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 998px) {
+    font-size: 34px;
+  }
 }
 
 .icon {
-  font-size: 34px;
-  color: $mainColor;
-  @media (max-width: $small) {
-    font-size: 20px;
+  icon();
+  &:active {
+    color: #fff
   }
-    &:active {
-      color: #fff
-    }
 }
