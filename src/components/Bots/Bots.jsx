@@ -1,6 +1,6 @@
 import React, { PureComponent, Component } from 'react';
 import styles from './Bots.styl';
-import Content from 'components/Content'
+import Content from 'components/Content/'
 import container from "components/container";
 import { Container, Draggable } from 'react-smooth-dnd';
 import { bind } from 'decko';
@@ -34,6 +34,7 @@ class Bots extends Component {
       addedIndex
     })
   }
+
   render() {
     const { bots } = this.props.data;
     const { timeUnit } = this.props.currentConfig;

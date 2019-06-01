@@ -1,5 +1,8 @@
 $mainColor = #546076;
 $subColor = #fff;
+
+$big = 1430px;
+$middle = 998px;
 $small = 700px;
 $minSize = 350px;
 $baseFont = 'S FU IDisplay';
@@ -12,14 +15,12 @@ text() {
 
   font-size: 60px;
 
-  @media (max-width: 1430px) {
+  @media (max-width: $big) {
     font-size: 24px;
-
   }
 
-  @media (max-width: 998px) {
+  @media (max-width: $middle) {
     font-size: 24px;
-
   }
 
   @media (max-width: $small) {
@@ -28,7 +29,6 @@ text() {
 
   @media (max-width: $minSize) {
     font-size: 1em;
-
   }
 }
 
@@ -36,7 +36,7 @@ text() {
 icon() {
     font-size: 60px;
 
-    @media (max-width: 1430px) {
+    @media (max-width: $big) {
       font-size: 34px;
     }
 

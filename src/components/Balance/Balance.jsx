@@ -7,7 +7,7 @@ import container from "components/container";
 class Balance extends PureComponent {
   render() {
     const { trading_capital_currency, trading_capital, balance, on_hold } = this.props.data;
-    
+
     return (
       <Content>
         <div className={styles.balance}>
@@ -28,7 +28,6 @@ class Balance extends PureComponent {
             </div>
           </div>
         </div>
-
       </Content>
     );
   }

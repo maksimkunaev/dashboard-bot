@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import styles from './BottomBlock.styl';
-import Navigation from 'components/Navigation'
-import Bots from 'components/Bots'
-import Time from 'components/Time'
+import Navigation from 'components/Navigation/'
+import Bots from 'components/Bots/'
+import Time from 'components/Time/'
 
 export default class BottomBlock extends PureComponent {
   render() {
@@ -12,7 +12,6 @@ export default class BottomBlock extends PureComponent {
         <Time/>
         <Navigation/>
       </div>
-
     );
   }
 }

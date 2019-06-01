@@ -2,21 +2,21 @@
 
 .bots {
   width: 100%;
-
   flex-grow: 2;
 }
+
 .bot {
   width: 460px;
   height: 420px;
   padding: 2px 0;
   border-radius: 5px;
 
-  @media (max-width: 1430px) {
+  @media (max-width: $big) {
     width: 300px;
     height: 280px;
   }
 
-  @media (max-width: 998px) {
+  @media (max-width: $middle) {
     width: 230px;
     height: 209px;
   }
@@ -76,24 +76,9 @@
   justify-content: space-between;
 
   padding: 35px 0
-  @media (max-width: 1430px) {
+  @media (max-width: $big) {
     padding: 10px 0
   }
-
-  //@media (max-width: 998px) {
-  //  width: 230px;
-  //  height: 209px;
-  //}
-  //
-  //@media (max-width: $small) {
-  //  width: 150px;
-  //  height: 140px;
-  //  margin: 5px;
-  //}
-  //
-  //@media (max-width: $minSize) {
-  //  width: 140px;
-  //}
 }
 
 :global {
@@ -114,7 +99,6 @@
       min-height: 30px;
       min-width: 30px;
       overflow: scroll;
-      //flex-wrap: nowrap;
     }
   }
 

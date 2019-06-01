@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import cn from 'classnames';
 import styles from './TopBlock.styl';
 import TitleBar from 'components/TitleBar/'
 import Balance from 'components/Balance/'
@@ -13,7 +12,6 @@ export default class topBlock extends PureComponent {
         <Balance/>
         <Graph />
       </div>
-
     );
   }
 }

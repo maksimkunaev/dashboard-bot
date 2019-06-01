@@ -8,13 +8,13 @@ import 'antd/dist/antd.css';
 class App extends Component {
   render() {
     return (
-        <div className={s.app}>
-          <div className={s.container}>
-            <TopBlock />
-            <BottomBlock />
-          </div>
+      <div className={s.app}>
+        <div className={s.container}>
+          <TopBlock />
+          <BottomBlock />
         </div>
-      );
+      </div>
+    );
   }
 }
 
