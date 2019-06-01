@@ -5,6 +5,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const devMode = process.env.NODE_ENV !== 'production'
 const ComponentDirectoryPlugin = require("component-directory-webpack-plugin");
 
+const paths = {
+    appSrc: path.resolve(__dirname, './src'),
+};
+
 module.exports = {
     devtool: 'source-map',
     entry: './src/index.js',
@@ -71,8 +75,9 @@ module.exports = {
         ]
     },
     resolve: {
-        plugins: [new ComponentDirectoryPlugin()],
         extensions: ['.js', '.jsx'],
+        modules: [paths.appSrc, 'node_modules'],
+        plugins: [new ComponentDirectoryPlugin()],
     },
     plugins: [
         new HtmlWebpackPlugin({

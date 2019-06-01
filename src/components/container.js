@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import api from '../api';
+import api from 'api';
 const {
   getData,
 } = api;

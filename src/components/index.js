@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import s from "./index.styl";
-import Navigation from "./Navigation";
-import TopBlock from "./TopBlock";
-import BottomBlock from './BottomBlock';
-import container from "./container";
+import Navigation from "components/Navigation";
+import TopBlock from "components/TopBlock";
+import BottomBlock from 'components/BottomBlock';
+import container from "components/container";
 import 'antd/dist/antd.css';
-import data from '../json/data.js';
+import data from 'json/data.js';
 
 class App extends Component {
   render() {
