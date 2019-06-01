@@ -12,13 +12,34 @@ text() {
   height: 140px;
   text-transform: uppercase;
   text();
-  outline  1px solid #fff
 }
 
-.top {
+.capital {
 
 }
 
-.bottom {
+.info {
+  justify-content: space-between;
+  display: flex;
+  .tradeBalance {
+    font-size: 75px;
+    line-height: 1;
+    color: $subColor;
+    font-family: "S FU IDisplay";
+    font-weight: bold;
+    text-align: right;
+  }
 
+  .details {
+    .item {
+      display: flex;
+      justify-content: space-between;
+      .amount {
+        color: $subColor;
+      }
+      .hIcon {
+
+      }
+    }
+  }
 }

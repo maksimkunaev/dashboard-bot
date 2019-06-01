@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c509ee6-0357-4658-958b-2cb30c145f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Balance/Balance.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Balance/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Content.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Graph/Graph.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Graph/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/externalStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/font/SF_UI_Display.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/font/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/h.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BottomBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomBlock/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TitleBar/TitleBar.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleBar/TitleBar.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TitleBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleBar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBlock/TopBlock.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBlock/TopBlock.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Balance/Balance.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Balance/Balance.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Balance/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Balance/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/base.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/base.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,51 +30,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/base.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Balance/Balance.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/css/fonts.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/externalStyle.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -101,11 +38,63 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/fonts.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/base.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/index.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Balance/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Balance/Balance.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/media/h.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>console.</find>
       <find>pages</find>
       <find>console</find>
       <find>headRow</find>
@@ -135,6 +124,7 @@
       <find>getAllTasks</find>
       <find>font-siz</find>
       <find>svg</find>
+      <find>font-famil</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -186,20 +176,20 @@
         <option value="$PROJECT_DIR$/src/components/TitleBar/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/TopBlock/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/TopBlock/TopBlock.styl" />
-        <option value="$PROJECT_DIR$/src/components/index.styl" />
         <option value="$PROJECT_DIR$/src/components/Graph/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Content/Content.styl" />
         <option value="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" />
         <option value="$PROJECT_DIR$/src/components/BottomBlock/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Navigation/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Balance/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Balance/Balance.styl" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/css/base.styl" />
         <option value="$PROJECT_DIR$/src/css/externalStyle.ts" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/css/externalStyle.js" />
         <option value="$PROJECT_DIR$/src/css/fonts.styl" />
+        <option value="$PROJECT_DIR$/src/components/index.styl" />
+        <option value="$PROJECT_DIR$/src/css/base.styl" />
+        <option value="$PROJECT_DIR$/src/components/Balance/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Balance/Balance.styl" />
       </list>
     </option>
   </component>
@@ -230,7 +220,27 @@
               <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Balance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="BottomBlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559394388237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559396014963" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -251,9 +261,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/media" />
       <recent name="$PROJECT_DIR$/src/css/font" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/media" />
       <recent name="$PROJECT_DIR$/src/components/TopBlock" />
       <recent name="$PROJECT_DIR$/src/api" />
     </key>
@@ -294,12 +304,12 @@
       <workItem from="1558824269277" duration="4020000" />
       <workItem from="1559248230448" duration="583000" />
       <workItem from="1559339624811" duration="8740000" />
-      <workItem from="1559393744221" duration="488000" />
+      <workItem from="1559393744221" duration="1986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94466000" />
+    <option name="totallyTimeSpent" value="95964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -373,8 +383,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack/declarations/WebpackOptions.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-chartjs/lib/core.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/recharts/es6/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/recharts/es6/chart/LineChart.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/recharts/es6/chart/generateCategoricalChart.js" />
@@ -514,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Graph/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -579,16 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Balance/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/font/SF_UI_Display.ttf">
       <provider selected="true" editor-type-id="fontseditor" />
     </entry>
@@ -604,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/graph.svg" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -619,17 +602,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Balance/Balance.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dist/static/SF_UI_Display.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base.styl">
+    <entry file="file://$PROJECT_DIR$/dist/static/graph.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="618">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
@@ -652,10 +634,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/fonts.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/base.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Balance/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Balance/Balance.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media/h.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
