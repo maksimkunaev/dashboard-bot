@@ -5,8 +5,8 @@ import styles from './BottomBlock.styl';
 export default class BottomBlock extends PureComponent {
   render() {
     return (
-      <div className={styles.topBlock}>
-        BottomBlock
+      <div className={styles.bottomBlock}>
+        {/*BottomBlock*/}
       </div>
 
     );

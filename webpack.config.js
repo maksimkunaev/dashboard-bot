@@ -67,11 +67,17 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
+                test: /\.(eot|woff|woff2|ttf|jpg|svg|png|gif)$/,
                 use: [
-                    'file-loader'
-                ]
-            }
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: 'static/[name].[ext]',
+                        },
+                    },
+                ],
+            },
+
         ]
     },
     resolve: {

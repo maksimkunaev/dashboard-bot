@@ -6,7 +6,7 @@ export default class Navigation extends PureComponent {
   render() {
     return (
       <div className={styles.navigation}>
-        Navigation
+        {/*Navigation*/}
       </div>
     );
   }
