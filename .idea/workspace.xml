@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c509ee6-0357-4658-958b-2cb30c145f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/media/arrows.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Balance/Balance.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Balance/Balance.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bots/Bots.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bots/Bots.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Bots/Bots.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bots/Bots.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/base.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/base.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,27 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/base.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
-              <folding>
-                <element signature="e#77#191#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/index.styl">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="630">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -84,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="315">
+              <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -93,11 +66,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="70" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="120">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -117,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -205,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/css/externalStyle.js" />
         <option value="$PROJECT_DIR$/src/css/fonts.styl" />
         <option value="$PROJECT_DIR$/src/components/Balance/index.jsx" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/TitleBar/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/TopBlock/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.jsx" />
@@ -216,16 +206,17 @@
         <option value="$PROJECT_DIR$/src/components/Time/Time.styl" />
         <option value="$PROJECT_DIR$/src/components/Time/Time.jsx" />
         <option value="$PROJECT_DIR$/src/components/Bots/BotIcon.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Bots/Bots.styl" />
         <option value="$PROJECT_DIR$/src/components/Balance/Balance.styl" />
         <option value="$PROJECT_DIR$/src/css/base.styl" />
         <option value="$PROJECT_DIR$/src/components/index.styl" />
         <option value="$PROJECT_DIR$/src/components/BottomBlock/BottomBlock.styl" />
-        <option value="$PROJECT_DIR$/src/components/Bots/Bots.jsx" />
         <option value="$PROJECT_DIR$/src/components/container.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.styl" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/components/Bots/Bots.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Bots/Bots.styl" />
       </list>
     </option>
   </component>
@@ -239,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -256,46 +248,18 @@
               <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Bots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="BottomBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559413478396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559414292014" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,15 +267,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/media" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/css/font" />
       <recent name="$PROJECT_DIR$/src/components/TopBlock" />
       <recent name="$PROJECT_DIR$/src/api" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,18 +311,18 @@
       <workItem from="1558824269277" duration="4020000" />
       <workItem from="1559248230448" duration="583000" />
       <workItem from="1559339624811" duration="8740000" />
-      <workItem from="1559393744221" duration="15749000" />
+      <workItem from="1559393744221" duration="16104000" />
+      <workItem from="1559417879889" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109727000" />
+    <option name="totallyTimeSpent" value="110642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15628816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15811966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,13 +359,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -494,13 +451,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/media/h.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="76" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Balance/Balance.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -649,6 +592,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="29" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/index.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -670,12 +620,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="50" />
+        <state relative-caret-position="630">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,30 +640,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="315">
+          <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.styl">
+    <entry file="file://$PROJECT_DIR$/src/components/Bots/Bots.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="271">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="70" selection-end-column="3" />
         </state>
       </provider>
     </entry>

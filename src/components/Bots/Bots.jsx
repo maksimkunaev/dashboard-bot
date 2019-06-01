@@ -5,6 +5,7 @@ import container from "components/container";
 import { Container, Draggable } from 'react-smooth-dnd';
 import { bind } from 'decko';
 import BotIcon from './BotIcon';
+import arrows from 'media/arrows.png';
 
 class Bot extends PureComponent {
   render() {
@@ -18,6 +19,7 @@ class Bot extends PureComponent {
           <BotIcon fill={color}/>
           <span className={styles.title}>{title}</span>
           <span className={progressCLass}>{data}%</span>
+          {title === 'megabot' && <img src={arrows} alt="arrows" className={styles.arrows}/>}
         </div>
       </div>
     );
