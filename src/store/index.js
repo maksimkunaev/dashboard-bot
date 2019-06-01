@@ -3,12 +3,12 @@ import { combineReducers } from 'redux';
 import initialData from 'json/data.js';
 
 const sortedBots = [
-    { name: 'orange_bot', title: 'attack' },
-    { name: 'white_bot', title: 'place bot here' },
-    { name: 'blue_bot', title: 'balance' },
-    { name: 'green_bot', title: 'defence' },
-    { name: 'yellow_bot', title: 'megabot' },
-    { name: 'red_bot', title: 'attack' },
+    { name: 'orange_bot', title: 'attack', color: 'orange' },
+    { name: 'white_bot', title: 'place bot here', color: 'white' },
+    { name: 'blue_bot', title: 'balance', color: 'blue' },
+    { name: 'green_bot', title: 'defence', color: 'green' },
+    { name: 'yellow_bot', title: 'megabot', color: 'yellow' },
+    { name: 'red_bot', title: 'attack', color: 'red' },
 ];
 
 const data = { ...initialData };
@@ -19,6 +19,7 @@ data.bots = sortedBots.map(sortedBot => {
     return {
         ...foundBot,
         title: sortedBot.title,
+        color: sortedBot.color,
     }
 })
 
