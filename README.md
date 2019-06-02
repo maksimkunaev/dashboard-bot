@@ -4,4 +4,4 @@ To start:
 
 ```npm run dev```
 
-**demo:**
+**demo:** https://maksimkunaev.github.io/dashboard-page/
