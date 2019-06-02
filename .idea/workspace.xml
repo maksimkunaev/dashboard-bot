@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c509ee6-0357-4658-958b-2cb30c145f62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/index.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="325">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -219,8 +218,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="y" value="23" />
+    <option name="width" value="816" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +234,11 @@
             <path>
               <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashboard-bot" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559437145396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559488672718" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,18 +325,17 @@
       <workItem from="1559424802930" duration="211000" />
       <workItem from="1559425639502" duration="10038000" />
       <workItem from="1559470228095" duration="12000" />
-      <workItem from="1559487944545" duration="262000" />
+      <workItem from="1559487944545" duration="507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125675000" />
+    <option name="totallyTimeSpent" value="125920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="944" y="39" width="736" height="1011" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16727717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39481267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +352,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.3351469" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.31428573" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -673,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/index.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="325">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
