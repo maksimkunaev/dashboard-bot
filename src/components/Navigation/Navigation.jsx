@@ -7,7 +7,6 @@ import cn from 'classnames';
 import { Icon } from 'antd';
 
 class MenuItem extends PureComponent {
-
   render() {
     const { name, isActive, onClick, icon } = this.props;
 

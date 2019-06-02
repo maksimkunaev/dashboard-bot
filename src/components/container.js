@@ -25,6 +25,11 @@ const mapDispatchToProps = dispatch => ({
       data,
     })
   },
+  getFromStorage: () => {
+    dispatch({
+      type: 'setInitialConfig',
+    })
+  }
 })
 
 export default component => connect(mapStateToProps, mapDispatchToProps)(component);

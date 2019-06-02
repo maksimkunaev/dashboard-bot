@@ -1,6 +1,7 @@
 $mainColor = #546076;
 $subColor = #fff;
 
+$large = 1800px;
 $big = 1430px;
 $middle = 998px;
 $small = 700px;
@@ -14,6 +15,10 @@ text() {
   text-transform: uppercase;
 
   font-size: 60px;
+
+  @media (max-height: 998px) {
+    font-size: 24px;
+  }
 
   @media (max-width: $big) {
     font-size: 24px;

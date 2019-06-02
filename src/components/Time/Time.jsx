@@ -6,13 +6,10 @@ import { bind } from 'decko'
 import cn from 'classnames';
 
 class Time extends PureComponent {
-
   range = [
     {key: '24h', name: '24h' },
     {key: '7d', name: '7 days' },
     {key: '30d', name: '30 days' },
-    // {key: '60d', name: '60d' },
-    // {key: '90d', name: '90d' },
     {key: 'all_time', name: 'All time' },
   ]
 
@@ -30,7 +27,6 @@ class Time extends PureComponent {
 
           <div className={styles.range}>
             <div className={styles.title}>Time Range:</div>
-
             {
               this.range.map(unit => {
                 return <button
@@ -43,7 +39,6 @@ class Time extends PureComponent {
               })
             }
           </div>
-
         </div>
       </Content>
     );

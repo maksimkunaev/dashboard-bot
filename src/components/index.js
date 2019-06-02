@@ -6,6 +6,10 @@ import container from "components/container";
 import 'antd/dist/antd.css';
 
 class App extends Component {
+  componentDidMount() {
+    this.props.getFromStorage();
+  }
+
   render() {
     return (
       <div className={s.app}>

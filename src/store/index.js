@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import initialData from 'json/data.js';
+import localStorage from 'utilities/localStorage';
 
 const sortedBots = [
     { name: 'orange_bot', title: 'attack', color: 'orange' },
@@ -49,10 +50,24 @@ function changeData(state = initialState.data, action) {
 function changeConfig(state = initialState.currentConfig, action) {
     switch (action.type) {
         case 'changeRange':
-            return { ...state, timeUnit: action.data};
+            const newRangeConfig = { ...state, timeUnit: action.data};
+            localStorage.save('currentConfig', newRangeConfig)
+            return newRangeConfig;
 
         case 'switchMenu':
-            return { ...state, activeMenu: action.data};
+            const newSwitchConfig = { ...state, activeMenu: action.data};
+            localStorage.save('currentConfig', newSwitchConfig)
+
+            return newSwitchConfig;
+
+        case 'setInitialConfig':
+            const data = localStorage.get('currentConfig');
+
+            if (data) {
+                return data;
+            } else {
+                return state;
+            }
     }
 
     return state;

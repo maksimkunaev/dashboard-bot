@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const devMode = process.env.NODE_ENV !== 'production'
 const ComponentDirectoryPlugin = require("component-directory-webpack-plugin");
+const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
 const paths = {
     appSrc: path.resolve(__dirname, './src'),
@@ -89,11 +90,20 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html'
         }),
+        new PreloadWebpackPlugin({
+            rel: 'preload',
+            as(entry) {
+                if (/\.css$/.test(entry)) return 'style';
+                if (/\.woff$/.test(entry)) return 'font';
+                if (/\.png$/.test(entry)) return 'image';
+                return 'script';
+            }
+        }),
         new MiniCssExtractPlugin({
             filename: devMode ? '[name].css' : '[name].[hash].css',
             chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
         }),
         new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
     ]
 }
