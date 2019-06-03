@@ -7,7 +7,6 @@ import { Provider } from 'react-redux'
 import reducer from './store'
 
 const store = createStore(reducer);
-import 'css/externalStyle';
 
 ReactDOM.render(
   <Provider store={store}>

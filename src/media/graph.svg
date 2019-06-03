@@ -7,7 +7,7 @@
 	</defs>
 	<style>
 		tspan { white-space:pre }
-		.txt0 { font-size: 20px;line-height: 88px;fill: #546076;font-family: "S FU IDisplay";font-weight: 300;text-anchor: middle } 
+		.txt0 { font-size: 20px;line-height: 88px;fill: #546076;font-family: "Roboto";font-weight: 300;text-anchor: middle }
 		.shp1 { fill: #9cc4ef } 
 	</style>
 	<g >
